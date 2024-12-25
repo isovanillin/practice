@@ -6,7 +6,7 @@
 
 int main()
 {
-    double val1{}, val2{};
+    int val1{}, val2{};
     std::cin >> val1 >> val2;
 
     std::cout << "The smallest number of these two values is " << std::min(val1, val2) << ". The largest number is " << std::max(val1, val2) << ". The sum is " << (val1+val2) << ". The difference is " << abs(val1-val2);
